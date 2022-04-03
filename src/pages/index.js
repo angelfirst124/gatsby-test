@@ -1,14 +1,12 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import Layout from "./components/layout"
 
 const IndexPage = () => {
   return (
-    <main>
-      <title>home page</title>
-      <h1>Welcome to Gatsby</h1>
-      <p>Please enjoy</p>
-      <Link to="/about">about</Link>
-    </main>
+    <Layout pageTitle="Dashboard">
+      <p>It is the enjoying time</p>
+    </Layout>
   )
 }
 
