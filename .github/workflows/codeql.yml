@@ -19,6 +19,9 @@ on:
     branches: [ main ]
   schedule:
     - cron: '40 4 * * 0'
+  path-ignore: 
+    - '**/*.md'
+    - '**/*.txt'
 
 jobs:
   analyze:

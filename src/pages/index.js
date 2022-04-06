@@ -11,6 +11,7 @@ const IndexPage = () => {
           src="../images/images.jpg"
         >
         </StaticImage>
+        <h1>dkdkdekkkdkd</h1>
       </Layout>
     )
 }
