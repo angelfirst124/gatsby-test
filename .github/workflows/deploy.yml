@@ -1,0 +1,11 @@
+name: Deploy
+on:
+  push:
+    branches: [ master ]
+jobs:
+  dev-deploy:
+    name: Deploy to Dev server
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
